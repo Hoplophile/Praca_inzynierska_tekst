@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Wstęp}{7}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Dźwięk}{9}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Ogólna charakterystyka fal dźwiękowych}{9}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Fale dźwiękowe jako zagrożenie dla zdrowia człowieka}{10}{section.2.2}% 
