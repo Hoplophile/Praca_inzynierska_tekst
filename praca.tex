@@ -1,4 +1,4 @@
-\documentclass[11pt]{aghdpl}
+\documentclass[12pt]{aghdpl}
 % \documentclass[en,11pt]{aghdpl}  % praca w języku angielskim
 
 % Lista wszystkich języków stanowiących języki pozycji bibliograficznych użytych w pracy.
@@ -11,7 +11,8 @@
 \usepackage[utf8]{inputenc}
 
 % dodatkowe pakiety
-
+\usepackage{float}
+\restylefloat{table}		%added to position tables inline
 \usepackage{mathtools}
 \usepackage{amsfonts}
 \usepackage{amsmath}
@@ -19,6 +20,7 @@
 \usepackage{textcomp}		%added for degree symbol
 \usepackage{hyperref}		%added for clickable references
 \usepackage[table]{xcolor}	%added for coloring cells
+%\usepackage{url}			%added for URLs in bibliography
 
 % --- < bibliografia > ---
 
@@ -164,13 +166,11 @@ backend=bibtex
 \clearpage
 
 \include{rozdzialy/wstep}
+
 \include{rozdzialy/dzwiek}
 
-%\include{rozdzial3}
-%\include{rozdzial1}
-%\include{rozdzial2}
-%\include{tests}
-
+\include{rozdzialy/wykonanie}
+\include{rozdzialy/wykonanie/hardware}
 
 \printbibliography
 

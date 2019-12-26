@@ -2,15 +2,10 @@
 \label{cha:dwiek}
 
 \section{Ogólna charakterystyka fal dźwiękowych}
-Dźwięk jest wrażeniem słuchowym, powodowanym przez fale akustyczne, które są falami mechanicznymi. W ludzkim uchu ich odbiór odbywa się przez zmiany ciśnienia płynu, którym wypełniony jest ślimak (patrz rys. \ref{ślimak}). Powodują one podrażnianie rzęsek, które z kolei przekazują impulsy elektrochemiczne do mózgu. Im mniejsza częstotliwość fali, tym dalej dociera i na tej podstawie mózg potrafi rozróżniać częstotliwości. Dla człowieka słyszalne są fale z zakresu ok. 20Hz - 20kHz, choć górna granica maleje z wiekiem przez stopniową degradację najbardziej zewnętrznych rzęsek (a więc odpowiadających za najwyższe częstotliwości).\cite{JakSlyszymy} 
-
-\begin{figure}[h]
-	\centering
-	\includegraphics{zdjecia/ślimak.png}
-	\caption{\label{ślimak} Odbiór fal dźwiękowych w ślimaku ludzkiego ucha}
-\end{figure}
+Dźwięk jest wrażeniem słuchowym, powodowanym przez fale akustyczne. Rozchodzą się one w postaci fal podłużnych, będącymi zaburzeniami ciśnienia i gęstości ośrodka sprężystego\cite{FaleAkustyczne}. Prędkość dźwięku w powietrzu przy temperaturze 0 stopni celciusza wynosi 331,3m/s.
 
 Dźwięk można opisać kilkoma podstawowymi parametrami:
+
 \begin{itemize}
 	\item wysokość (częstotliwość fali)
 	\item głośność (amplituda fali)
@@ -18,10 +13,35 @@ Dźwięk można opisać kilkoma podstawowymi parametrami:
 	\item czas trwania
 \end{itemize}
 
-\section{Fale dźwiękowe jako zagrożenie dla zdrowia człowieka}
-Głównym, choć nie jedynym, parametrem dźwięku, który determinuje jego szkodliwość jest amplituda fali, czyli ciśnienie akustyczne. W tabeli \ref{tabelaSPL} przedstawiono sytuacje, w których występuje określony poziom natężenia.
+Poziom dźwięku wyrażany jest miarą ciśnienia akustycznego, którego jednostką jest Paskal \textit{Pa}. Jednak ponieważ ludzkie ucho reaguje na bodźce logarytmicznie, częściej używa się decybeli ($\frac{1}{10}$ bela). Wzór na obliczenie poziomu ciśnienia akustycznego w skali logarytmicznej wygląda następująco\cite{CisnienieAkustyczne}:
+\begin{equation}
+SPL = 20\log{(\frac{p}{p_{ref}})}
+\end{equation}
 
-\begin{table}[!htb]
+gdzie: \\
+\indent$SPL$ - poziom ciśnienia akustycznego [\textit{dB}], \\
+\indent$p$ - ciśnienie akustyczne [\textit{Pa}], \\
+\indent$p_{ref}$ - ciśnienie akustyczne odniesienia, czyli próg słyszalności, wynoszący $2\cdot10^{-5} Pa$ 
+
+\textbf{TODO niespójność progu słyszalności (tu wychodzi 0dB, w tabelce jest 10dB)}
+
+
+\section{Odbiór fal dźwiękowych przez człowieka}
+W ludzkim uchu odbiór dźwięku odbywa się przez zmiany ciśnienia płynu, którym wypełniony jest ślimak (patrz rys. \ref{ślimak}). Powodują one podrażnianie rzęsek, które z kolei przekazują impulsy elektrochemiczne do mózgu. Im mniejsza częstotliwość fali, tym dalej dociera i na tej podstawie mózg potrafi rozróżniać częstotliwości. Dla człowieka słyszalne są fale z zakresu ok. 20Hz - 20kHz, choć górna granica maleje z wiekiem przez stopniową degradację najbardziej zewnętrznych rzęsek (a więc odpowiadających za najwyższe częstotliwości).\cite{JakSlyszymy} 
+Fale poniżej granicy słyszalności to infradźwięki, powyżej - ultradźwięki, a częstotliwości wyższe, niż $\text{10}^{\text{10}}$kHz to hiperdźwięki.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics{zdjecia/ślimak.png}
+	\caption{\label{ślimak} Odbiór fal dźwiękowych w ślimaku ludzkiego ucha}
+\end{figure}
+
+
+\section{Fale dźwiękowe jako zagrożenie dla zdrowia człowieka}
+
+Głównym, choć nie jedynym, parametrem dźwięku, który determinuje jego szkodliwość jest amplituda fali, czyli ciśnienie akustyczne. W tabeli ~\ref{tab:SPL} przedstawiono sytuacje, w których występuje określony poziom natężenia.
+
+\begin{table}[H]
 	\centering
 	\begin{tabular}{|r|l|}
 		\hline
@@ -68,14 +88,13 @@ Głównym, choć nie jedynym, parametrem dźwięku, który determinuje jego szko
 		10 & Próg słyszalności \\
 		\hline
 	\end{tabular}
-	\label{tabelaSPL}
 	\caption{Poziomy natężenia dźwięku\cite{SPLtable}}
+	\label{tab:SPL}
 \end{table}
 
+Na szkodliwość dźwięku wpływa również czas jego trwania. Amerykańska agencja federalna NIOSH (ang. \textit{National Institute for Occupational Safety and Health}) zajmuje się badaniem i zapobieganiem chorobom związanym z pracą. Wydała ona dokument\cite{NIOSH}, w którym przedstawiono bezpieczny czas wystawienia na określone poziomy ciśnienia akustycznego.
 
-Amerykańska agencja federalna NIOSH (ang. \textit{National Institute for Occupational Safety and Health}) zajmuje się badaniem i zapobieganiem chorobom związanym z pracą. Wydała ona dokument\cite{NIOSH}, w którym przedstawiono bezpieczny czas wystawienia na określone poziomy ciśnienia akustycznego.
-
-\begin{table}[!htb]
+\begin{table}[H]
 	\centering
 	\begin{tabular}{|r|l|}
 		\hline
@@ -95,6 +114,80 @@ Amerykańska agencja federalna NIOSH (ang. \textit{National Institute for Occupa
 		82 & 16:00:00 \\
 		\hline
 	\end{tabular}
-	\label{tabelaSPLczas}
 	\caption{Maksymalny czas wystawienia na określone poziomy nateżęnia \cite{SPLtable}}
+	\label{tab:SPLczas}
 \end{table}
+
+Odbiorcze uszkodzenie słuchu przez hałas nazywamy urazem akustycznym. Dzieli się go na ostry oraz przewlekły. Ostry jest powodowany krótkotrwałym oddziaływaniem natężenia powyżej 130dB, a przewlekły długotrwałym wystawieniem na dźwięki powyżej 85dB. W przypadku tego pierwszego uszkodzeniu ulega narzędzie Cortiego, będące częścią ślimaka i zawierające komórki rzęsate\cite{UrazyAkustyczne}.
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[scale=0.45]{zdjecia/cochlee-normale.jpg}
+        \label{normal_cochlea}
+        \caption{Zdrowe rzęski}
+    \end{subfigure}
+    \begin{subfigure}{.45\textwidth}
+        \centering
+        \includegraphics[scale=0.44]{zdjecia/traumatisme-sonore-niveau-2.jpg}
+        \label{damaged_cochlea}
+        \caption{Uszkodzone rzęski}
+    \end{subfigure}
+    \caption{Powierzchnia ślimaka widoczna pod mikroskopem elektronowym\cite{RzeskiMikorskop}}
+\end{figure}
+
+
+\subsection{Dźwięki strzałów i wybuchów}
+
+W trakcie swoich rozważań poświęciłem szczególną uwagę dźwiękom pochodzącym od broni palnej. To właśnie one miały być głównym źródłem zagrożenia dla słuchu użytkownika. 
+Ich źródłem jest eksplozja prochu strzelniczego, zmagazynowanego w łusce naboju, która nadaje prędkość początkową pociskowi. Ciśnienie akustyczne podczas takiego wybuchu przekracza 140 dB, a więc wystarczy niecała sekunda, aby doprowadzić do uszkodzenia słuchu\ref{tab:SPLczas}. Dodatkowo na takie uszkodzenie najbardziej narażone są rzęski odpowiedzialne za częstotliwości między 3 a 6kHz\cite{BadaniePolicjantow}. 
+
+Aby sprawdzić częstotliwości wystrzałów różnych typów broni, napisałem program w Pythonie do analizy dźwięków z plików \textit{.wav}. Miał on za zadanie odczytać przebieg sygnału z pliku, odfiltrować częstotliwości powyżej 15kHz i przeprowadzić szybką transformatę Fouriera na odfiltrowanym sygnale. Kod źródłowy dostępny jest na repozytorium pod linkiem \url{https://github.com/Hoplophile/Tactical_Headphones_Sim.git}. 
+
+Schemat działania programu wygląda następująco:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{grafy/Python_analiza_FFT.pdf}
+	\caption{\label{graf:analizaFFT} Dataflow programu do analizy FFT}
+\end{figure}
+
+Pliki źródłowe z dźwiękami broni zostały pobrane ze strony b\url{http://soundbible.com/tags-gun.html}. Niestety to powodowało brak pewności, czy dźwięk faktycznie pochodzi od broni podanej w nazwie oraz brak powtarzalności dźwięków, które nagrywane były w innych środowiskach, nieznanej odległości od broni i mikrofonami o różnych parametrach. Było to jednak najlepsze dostępne źródło tego typu nagrań. Wybrałem 4 pliki podpisane następującymi typami broni:
+
+\begin{itemize}
+	\item M4A1 - karabin szturmowy kalibru 5.56mm
+	\item AK-47 - karabin szturmowy kalibru 7.62mm
+	\item Beretta M92 - pistolet kalibru 9mm
+	\item Mossberg 500 - strzelba (kaliber nieznany)
+\end{itemize}
+
+Program zwracał osobne wykresy dla każdego pliku przedstawione poniżej.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{wykresy/AK47_fft.png}
+	\caption{\label{ak47_fft} Dźwięk strzału z AK-47 i jego transformata Fouriera}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{wykresy/M4A1_fft.png}
+	\caption{\label{m4a1_fft} Dźwięk strzału z M4A1 i jego transformata Fouriera}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{wykresy/Beretta_fft.png}
+	\caption{\label{beretta_fft} Dźwięk strzału z Beretty i jego transformata Fouriera}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.35]{wykresy/Mossberg_fft.png}
+	\caption{\label{mossberg_fft} Dźwięk strzału z Mossberga 500 i jego transformata Fouriera}
+\end{figure}
+
+Nie potrafiłem doprowadzić do przedstawienia większej liczby punktów na wykresie FFT, jednak z pewną dokładnością można stwierdzić, że dla wszystkich dźwięków największy pik mieści się w zakresie 3-6kHz. Dodatkowo na wykresach przedstawiających oryginalny przebieg sygnału widać, że mikrofony w większości przypadków osiągnęły poziom nasycenia (wypłaszczenia na granicach osi y). To wpływa negatywnie na jakość transformaty i oznacza, że dźwięk osiągnął poziom nasycenia mikrofonu, która przeważnie wynosi między 110 a 130 dB. 
+
+Powyższa analiza wskazuje na to, że zarówno częstotliwości, jak i natężenia dźwięków strzałów z broni palnej czyni je szczególnie niebezpiecznymi dla słuchu.

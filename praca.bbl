@@ -19,8 +19,8 @@
 \datalist[entry]{none/global//global/global}
   \entry{PolskaNormaCisnienia}{manual}{}
     \field{labeltitlesource}{title}
-    \field{title}{Polska norma PN-N-01307:1994 "Dopuszczalne wartości poziomu
-  dźwięku na stanowisku pracy"}
+    \field{title}{Polska norma PN-N-01307:1994 'Dopuszczalne wartości poziomu
+  dźwięku na stanowisku pracy'}
     \field{year}{1994}
   \endentry
 
@@ -33,7 +33,31 @@
   technology}
   \endentry
 
-  \entry{JakSlyszymy}{manual}{}
+  \entry{FaleAkustyczne}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{howpublished}{\\\url{https://pl.wikipedia.org/wiki/Fale_akustyczne}}
+    \field{title}{Fale akustyczne - Wikipedia}
+    \field{year}{2012 - 2019}
+  \endentry
+
+  \entry{CisnienieAkustyczne}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=DI}{%
+         family={Drumm},
+         familyi={D\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DI1}
+    \strng{fullhash}{DI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\\\url{http://www.acoustics.salford.ac.uk/acoustics_info/decibels/}}
+    \field{title}{A guide to decibels and how to use them}
+  \endentry
+
+  \entry{JakSlyszymy}{misc}{}
     \name{author}{1}{}{%
       {{hash=CS}{%
          family={Chrząszcz},
@@ -46,12 +70,12 @@
     \strng{fullhash}{CS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{Jak Słyszymy? (audioton.republika.pl)
-  \\\texttt{http://web.archive.org/web/20110920161806/http://audioton.republika.pl/ucho.html}}
+  \field{howpublished}{\\\url{http://web.archive.org/web/20110920161806/http://audioton.republika.pl/ucho.html}}
+    \field{title}{Jak Słyszymy? (audioton.republika.pl)}
     \field{year}{2002 - 2013}
   \endentry
 
-  \entry{SPLtable}{manual}{}
+  \entry{SPLtable}{misc}{}
     \name{author}{1}{}{%
       {{hash=SD}{%
          family={Sather},
@@ -64,8 +88,8 @@
     \strng{fullhash}{SD1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{title}{SOUND PRESSURE LEVEL CHART
-  \\\texttt{https://thewellcommunity.org/podcasts/engineering/sound-pressure-level-chart}}
+  \field{howpublished}{\\\url{https://thewellcommunity.org/podcasts/engineering/sound-pressure-level-chart}}
+    \field{title}{SOUND PRESSURE LEVEL CHART}
     \field{year}{2012}
   \endentry
 
@@ -77,6 +101,68 @@
     \field{labeltitlesource}{title}
     \field{title}{Occupational Noise Exposure}
     \field{year}{1998}
+  \endentry
+
+  \entry{UrazyAkustyczne}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=dnmMZ}{%
+         prefix={dr\bibnamedelima n.\bibnamedelima med.},
+         prefixi={d\bibinitperiod\bibinitdelim n\bibinitperiod\bibinitdelim
+  m\bibinitperiod},
+         family={Mariola\bibnamedelima Zagor},
+         familyi={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MZdnm1}
+    \strng{fullhash}{MZdnm1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\\\url{https://www.mp.pl/pacjent/otolaryngologia/choroby/choroby-uszu/110217,urazy-akustyczne}}
+    \field{title}{Urazy akustyczne}
+    \field{year}{2017}
+  \endentry
+
+  \entry{RzeskiMikorskop}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RPSIJW}{%
+         family={Rémy\bibnamedelima Pujol},
+         familyi={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+         suffix={Jing\bibnamedelima Wang},
+         suffixi={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+         given={Sam\bibnamedelima Irving},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RPJWSI1}
+    \strng{fullhash}{RPJWSI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\\\url{http://www.cochlea.eu/en/pathology/surdites-neuro-sensorielles/traumatisme-acoustique}}
+    \field{title}{NOISE INDUCED TRAUMA}
+    \field{year}{2018}
+  \endentry
+
+  \entry{BadaniePolicjantow}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=HLGSKKTHD}{%
+         family={Heraldo Lorena\bibnamedelima Guida},
+         familyi={H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  G\bibinitperiod},
+         suffix={Thiago Hernandes\bibnamedelima Diniz},
+         suffixi={T\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+         given={Sérgio Koodi\bibnamedelima Kinoshita},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HLGTHDSKK1}
+    \strng{fullhash}{HLGTHDSKK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\\\url{https://www.sciencedirect.com/science/article/pii/S1808869415308053}}
+    \field{title}{Acoustic and psychoacoustic analysis of the noise produced by
+  the police force firearms}
   \endentry
 \enddatalist
 \endinput
