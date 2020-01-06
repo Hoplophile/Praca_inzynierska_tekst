@@ -21,3 +21,6 @@
 \BOOKMARK [2][-]{subsection.5.5.7}{PCB\137left}{section.5.5}% 21
 \BOOKMARK [2][-]{subsection.5.5.8}{PCB\137right}{section.5.5}% 22
 \BOOKMARK [0][-]{chapter.6}{Software}{}% 23
+\BOOKMARK [1][-]{section.6.1}{System sluchawek}{chapter.6}% 24
+\BOOKMARK [1][-]{section.6.2}{Odczyt sygnalu z mikrofonu}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.3}{Wysylanie sygnalu do glosnika}{chapter.6}% 26

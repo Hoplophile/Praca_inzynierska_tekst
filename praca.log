@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.13)  6 JAN 2020 16:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.10.13)  7 JAN 2020 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1265,7 +1265,8 @@ LaTeX Warning: Unused global option(s):
 (./rozdzialy/zalozenia.aux) (./rozdzialy/hardware.aux)
 (./rozdzialy/hardware/uklad.aux) (./rozdzialy/hardware/glosniki.aux)
 (./rozdzialy/hardware/mikrofony.aux) (./rozdzialy/hardware/uC.aux)
-(./rozdzialy/hardware/PCB.aux) (./rozdzialy/software.aux))
+(./rozdzialy/hardware/PCB.aux) (./rozdzialy/software.aux)
+(./rozdzialy/software/soft_mic.aux))
 \openout1 = `praca.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 150.
@@ -1419,7 +1420,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 150
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<agh.jpg, id=96, 146.4672pt x 284.7438pt>
+<agh.jpg, id=108, 146.4672pt x 284.7438pt>
 File: agh.jpg Graphic file (type jpg)
 <use agh.jpg>
 Package pdftex.def Info: agh.jpg  used on input line 152.
@@ -1480,58 +1481,53 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 Rozdzia\l  1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-) [7] [8]
+[7]) [8]
 \openout2 = `rozdzialy/dzwiek.aux'.
 
  (./rozdzialy/dzwiek.tex
 Rozdzia\l  2.
-<zdjecia/slimak.png, id=170, 407.5225pt x 232.87pt>
+[9
+
+
+
+]
+<zdjecia/slimak.png, id=197, 407.5225pt x 232.87pt>
 File: zdjecia/slimak.png Graphic file (type png)
 <use zdjecia/slimak.png>
 Package pdftex.def Info: zdjecia/slimak.png  used on input line 33.
 (pdftex.def)             Requested size: 407.5215pt x 232.86942pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
-[9
-
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [10 <./zdjecia/slimak.png>]
-<zdjecia/cochlee-normale.jpg, id=198, 421.575pt x 234.8775pt>
+<zdjecia/cochlee-normale.jpg, id=213, 421.575pt x 234.8775pt>
 File: zdjecia/cochlee-normale.jpg Graphic file (type jpg)
 <use zdjecia/cochlee-normale.jpg>
 Package pdftex.def Info: zdjecia/cochlee-normale.jpg  used on input line 122.
-(pdftex.def)             Requested size: 189.70699pt x 105.6939pt.
-<zdjecia/traumatisme-sonore-niveau-2.jpg, id=199, 421.575pt x 238.8925pt>
+(pdftex.def)             Requested size: 178.73923pt x 99.58464pt.
+<zdjecia/traumatisme-sonore-niveau-2.jpg, id=214, 421.575pt x 238.8925pt>
 File: zdjecia/traumatisme-sonore-niveau-2.jpg Graphic file (type jpg)
 <use zdjecia/traumatisme-sonore-niveau-2.jpg>
 Package pdftex.def Info: zdjecia/traumatisme-sonore-niveau-2.jpg  used on input
  line 128.
-(pdftex.def)             Requested size: 185.49356pt x 105.11302pt.
+(pdftex.def)             Requested size: 175.73514pt x 99.58464pt.
 
 Underfull \hbox (badness 1527) in paragraph at lines 132--132
 []\T1/ptm/b/n/10.95 Rys. 2.2. |\T1/ptm/m/n/10.95 Po-wierzch-nia ±li-maka wi-doc
 zna pod mi-kro-sko-pem elek-tro-no-
  []
 
-
-Underfull \vbox (badness 1629) has occurred while \output is active []
-
- [11]
+[11]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 136.
 
 
 pdfTeX warning: pdflatex.exe (file ./grafy/Python_analiza_FFT.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<grafy/Python_analiza_FFT.pdf, id=213, 451.6875pt x 162.6075pt>
+<grafy/Python_analiza_FFT.pdf, id=228, 451.6875pt x 162.6075pt>
 File: grafy/Python_analiza_FFT.pdf Graphic file (type pdf)
 <use grafy/Python_analiza_FFT.pdf>
 Package pdftex.def Info: grafy/Python_analiza_FFT.pdf  used on input line 147.
-(pdftex.def)             Requested size: 451.68639pt x 162.6071pt.
+(pdftex.def)             Requested size: 406.51498pt x 146.3454pt.
 
 Underfull \hbox (badness 1132) in paragraph at lines 151--152
 []\T1/ptm/m/n/12 Pliki ¹ró-dªowe z d¹wi¦-kami broni zo-staªy po-brane ze strony
@@ -1540,7 +1536,7 @@ Underfull \hbox (badness 1132) in paragraph at lines 151--152
 
 [12 <./zdjecia/cochlee-normale.jpg> <./zdjecia/traumatisme-sonore-niveau-2.jpg>
  <./grafy/Python_analiza_FFT.pdf>]
-<wykresy/AK47_fft.png, id=228, 1003.8303pt x 494.3268pt>
+<wykresy/AK47_fft.png, id=243, 1003.8303pt x 494.3268pt>
 File: wykresy/AK47_fft.png Graphic file (type png)
 <use wykresy/AK47_fft.png>
 Package pdftex.def Info: wykresy/AK47_fft.png  used on input line 166.
@@ -1550,7 +1546,7 @@ Overfull \hbox (2.25917pt too wide) in paragraph at lines 166--167
  [][] 
  []
 
-<wykresy/M4A1_fft.png, id=229, 1003.8303pt x 494.3268pt>
+<wykresy/M4A1_fft.png, id=244, 1003.8303pt x 494.3268pt>
 File: wykresy/M4A1_fft.png Graphic file (type png)
 <use wykresy/M4A1_fft.png>
 Package pdftex.def Info: wykresy/M4A1_fft.png  used on input line 171.
@@ -1560,7 +1556,7 @@ Overfull \hbox (2.25917pt too wide) in paragraph at lines 171--172
  [][] 
  []
 
-<wykresy/Beretta_fft.png, id=230, 1003.8303pt x 494.3268pt>
+<wykresy/Beretta_fft.png, id=245, 1003.8303pt x 494.3268pt>
 File: wykresy/Beretta_fft.png Graphic file (type png)
 <use wykresy/Beretta_fft.png>
 Package pdftex.def Info: wykresy/Beretta_fft.png  used on input line 176.
@@ -1570,7 +1566,7 @@ Overfull \hbox (2.25917pt too wide) in paragraph at lines 176--177
  [][] 
  []
 
-<wykresy/Mossberg_fft.png, id=231, 1003.8303pt x 494.3268pt>
+<wykresy/Mossberg_fft.png, id=246, 1003.8303pt x 494.3268pt>
 File: wykresy/Mossberg_fft.png Graphic file (type png)
 <use wykresy/Mossberg_fft.png>
 Package pdftex.def Info: wykresy/Mossberg_fft.png  used on input line 181.
@@ -1586,15 +1582,20 @@ png> <./wykresy/Mossberg_fft.png>] [14]
 
  (./rozdzialy/zalozenia.tex
 Rozdzia\l  3.
+<zdjecia/conv_time.png, id=260, 274.77657pt x 445.665pt>
+File: zdjecia/conv_time.png Graphic file (type png)
+<use zdjecia/conv_time.png>
+Package pdftex.def Info: zdjecia/conv_time.png  used on input line 22.
+(pdftex.def)             Requested size: 105.25471pt x 170.71652pt.
 [15
 
 
 
-] [16
+] [16 <./zdjecia/conv_time.png>]
+Rozdzia\l  4.
+) [17
 
 ]
-Rozdzia\l  4.
-) [17]
 \openout2 = `rozdzialy/hardware.aux'.
 
  (./rozdzialy/hardware.tex [18
@@ -1603,242 +1604,234 @@ Rozdzia\l  4.
 
 ]
 Rozdzia\l  5.
-) [19]
-\openout2 = `rozdzialy/hardware/uklad.aux'.
+[19]
 
- (./rozdzialy/hardware/uklad.tex) [20
+LaTeX Warning: Command \textmu invalid in math mode on input line 34.
 
-
-]
-\openout2 = `rozdzialy/hardware/glosniki.aux'.
-
- (./rozdzialy/hardware/glosniki.tex
-
-LaTeX Warning: Command \textmu invalid in math mode on input line 8.
-
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
+4.
 (c:/texlive/2019/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-LaTeX Warning: Command \textmu invalid in math mode on input line 8.
+LaTeX Warning: Command \textmu invalid in math mode on input line 34.
 
 Missing character: There is no µ in font cmr12!
-) [21
-
-
-]
-\openout2 = `rozdzialy/hardware/mikrofony.aux'.
-
- (./rozdzialy/hardware/mikrofony.tex
-<zdjecia/mic_electret.jpg, id=274, 216.3282pt x 125.5089pt>
+[20]
+<zdjecia/mic_electret.jpg, id=289, 216.3282pt x 125.5089pt>
 File: zdjecia/mic_electret.jpg Graphic file (type jpg)
 <use zdjecia/mic_electret.jpg>
-Package pdftex.def Info: zdjecia/mic_electret.jpg  used on input line 10.
+Package pdftex.def Info: zdjecia/mic_electret.jpg  used on input line 48.
 (pdftex.def)             Requested size: 171.6434pt x 99.58464pt.
-<zdjecia/mic_mems.jpg, id=275, 501.875pt x 217.81375pt>
+<zdjecia/mic_mems.jpg, id=290, 501.875pt x 217.81375pt>
 File: zdjecia/mic_mems.jpg Graphic file (type jpg)
 <use zdjecia/mic_mems.jpg>
-Package pdftex.def Info: zdjecia/mic_mems.jpg  used on input line 15.
+Package pdftex.def Info: zdjecia/mic_mems.jpg  used on input line 53.
 (pdftex.def)             Requested size: 229.45622pt x 99.58464pt.
 
-Overfull \hbox (24.59776pt too wide) in paragraph at lines 15--16
+Overfull \hbox (24.59776pt too wide) in paragraph at lines 53--54
  [][] 
  []
 
-
-Underfull \hbox (badness 2717) in paragraph at lines 38--39
+[21 <./zdjecia/mic_electret.jpg> <./zdjecia/mic_mems.jpg>]
+Underfull \hbox (badness 2717) in paragraph at lines 76--77
 []\T1/ptm/m/n/12 Wybrany mi-kro-fon ma ±red-ni¡ czu-ªo±¢ $\OMS/cmsy/m/n/12 ^^@\
 OT1/cmr/m/n/12 42\OML/cmm/m/it/12 dbV=Pa$\T1/ptm/m/n/12 , a wi¦c zgod-nie ze wz
 o-rem
  []
 
-[22
-
-
- <./zdjecia/mic_electret.jpg> <./zdjecia/mic_mems.jpg>]) [23]
-\openout2 = `rozdzialy/hardware/uC.aux'.
-
-
-(./rozdzialy/hardware/uC.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 []\T1/ptm/m/n/12 Jako jed-nostk¦ ob-li-cze-niow¡, wy-brano mi-kro-kon-tro-ler f
 irmy \T1/ptm/m/it/12 STMi-cro-elec-tro-nics\T1/ptm/m/n/12 :
  []
 
-) [24
-
-
-]
-\openout2 = `rozdzialy/hardware/PCB.aux'.
-
- (./rozdzialy/hardware/PCB.tex
-<zdjecia/PCB/struktura.png, id=299, 389.95688pt x 345.54094pt>
+<zdjecia/PCB/struktura.png, id=309, 389.95688pt x 345.54094pt>
 File: zdjecia/PCB/struktura.png Graphic file (type png)
 <use zdjecia/PCB/struktura.png>
-Package pdftex.def Info: zdjecia/PCB/struktura.png  used on input line 11.
+Package pdftex.def Info: zdjecia/PCB/struktura.png  used on input line 112.
 (pdftex.def)             Requested size: 233.97592pt x 207.32616pt.
-
-Underfull \vbox (badness 2050) has occurred while \output is active []
-
- [25
-
-
- <./zdjecia/PCB/struktura.png>]
-<zdjecia/PCB/main.png, id=308, 1047.915pt x 693.34032pt>
+[23]
+<zdjecia/PCB/main.png, id=318, 1047.915pt x 693.34032pt>
 File: zdjecia/PCB/main.png Graphic file (type png)
 <use zdjecia/PCB/main.png>
-Package pdftex.def Info: zdjecia/PCB/main.png  used on input line 36.
+Package pdftex.def Info: zdjecia/PCB/main.png  used on input line 135.
 (pdftex.def)             Requested size: 419.15857pt x 277.3312pt.
-
-Underfull \vbox (badness 1424) has occurred while \output is active []
-
- [26 <./zdjecia/PCB/main.png>]
-<zdjecia/PCB/power.png, id=316, 1044.15094pt x 698.61pt>
+ [24 <./zdjecia/PCB/struktura.png>]
+<zdjecia/PCB/power.png, id=324, 1044.15094pt x 698.61pt>
 File: zdjecia/PCB/power.png Graphic file (type png)
 <use zdjecia/PCB/power.png>
-Package pdftex.def Info: zdjecia/PCB/power.png  used on input line 49.
+Package pdftex.def Info: zdjecia/PCB/power.png  used on input line 148.
 (pdftex.def)             Requested size: 417.65298pt x 279.43904pt.
-
-Underfull \vbox (badness 2237) has occurred while \output is active []
-
- [27 <./zdjecia/PCB/power.png>]
-<zdjecia/PCB/charger.png, id=323, 1050.17343pt x 700.86844pt>
+ [25 <./zdjecia/PCB/main.png>]
+<zdjecia/PCB/charger.png, id=332, 1050.17343pt x 700.86844pt>
 File: zdjecia/PCB/charger.png Graphic file (type png)
 <use zdjecia/PCB/charger.png>
-Package pdftex.def Info: zdjecia/PCB/charger.png  used on input line 62.
+Package pdftex.def Info: zdjecia/PCB/charger.png  used on input line 161.
 (pdftex.def)             Requested size: 420.06194pt x 280.3424pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [28 <./zdjecia/PCB/charger.png>]
-<zdjecia/PCB/mic_left.png, id=330, 1048.66782pt x 700.11563pt>
+ [26 <./zdjecia/PCB/power.png>] [27 <./zdjecia/PCB/charger.png>]
+<zdjecia/PCB/mic_left.png, id=345, 1048.66782pt x 700.11563pt>
 File: zdjecia/PCB/mic_left.png Graphic file (type png)
 <use zdjecia/PCB/mic_left.png>
-Package pdftex.def Info: zdjecia/PCB/mic_left.png  used on input line 76.
+Package pdftex.def Info: zdjecia/PCB/mic_left.png  used on input line 175.
 (pdftex.def)             Requested size: 419.4597pt x 280.04129pt.
-<zdjecia/PCB/mic_right.png, id=331, 1048.66782pt x 696.35156pt>
+<zdjecia/PCB/mic_right.png, id=346, 1048.66782pt x 696.35156pt>
 File: zdjecia/PCB/mic_right.png Graphic file (type png)
 <use zdjecia/PCB/mic_right.png>
-Package pdftex.def Info: zdjecia/PCB/mic_right.png  used on input line 82.
+Package pdftex.def Info: zdjecia/PCB/mic_right.png  used on input line 181.
 (pdftex.def)             Requested size: 419.4597pt x 278.53569pt.
-
-Underfull \vbox (badness 6842) has occurred while \output is active []
-
- [29 <./zdjecia/PCB/mic_left.png> <./zdjecia/PCB/mic_right.png>]
-<zdjecia/PCB/speakers.png, id=340, 1046.40938pt x 697.10437pt>
+ [28 <./zdjecia/PCB/mic_left.png> <./zdjecia/PCB/mic_right.png>]
+<zdjecia/PCB/speakers.png, id=355, 1046.40938pt x 697.10437pt>
 File: zdjecia/PCB/speakers.png Graphic file (type png)
 <use zdjecia/PCB/speakers.png>
-Package pdftex.def Info: zdjecia/PCB/speakers.png  used on input line 99.
+Package pdftex.def Info: zdjecia/PCB/speakers.png  used on input line 198.
 (pdftex.def)             Requested size: 418.55634pt x 278.8368pt.
-<zdjecia/PCB/connection.png, id=341, 977.90344pt x 648.17157pt>
+<zdjecia/PCB/connection.png, id=356, 977.90344pt x 648.17157pt>
 File: zdjecia/PCB/connection.png Graphic file (type png)
 <use zdjecia/PCB/connection.png>
-Package pdftex.def Info: zdjecia/PCB/connection.png  used on input line 112.
+Package pdftex.def Info: zdjecia/PCB/connection.png  used on input line 211.
 (pdftex.def)             Requested size: 391.15445pt x 259.26402pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30 <./zdjecia/PCB/speakers.png>]
-<zdjecia/PCB/PCB_left_top.png, id=348, 588.69937pt x 634.62094pt>
+ [29 <./zdjecia/PCB/speakers.png>]
+<zdjecia/PCB/PCB_left_top.png, id=363, 588.69937pt x 634.62094pt>
 File: zdjecia/PCB/PCB_left_top.png Graphic file (type png)
 <use zdjecia/PCB/PCB_left_top.png>
-Package pdftex.def Info: zdjecia/PCB/PCB_left_top.png  used on input line 130.
+Package pdftex.def Info: zdjecia/PCB/PCB_left_top.png  used on input line 229.
 (pdftex.def)             Requested size: 171.56282pt x 184.9429pt.
-<zdjecia/PCB/PCB_left_bottom.png, id=349, 595.47469pt x 590.95781pt>
+<zdjecia/PCB/PCB_left_bottom.png, id=364, 595.47469pt x 590.95781pt>
 File: zdjecia/PCB/PCB_left_bottom.png Graphic file (type png)
 <use zdjecia/PCB/PCB_left_bottom.png>
-Package pdftex.def Info: zdjecia/PCB/PCB_left_bottom.png  used on input line 13
-5.
+Package pdftex.def Info: zdjecia/PCB/PCB_left_bottom.png  used on input line 23
+4.
 (pdftex.def)             Requested size: 186.34888pt x 184.9429pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31 <./zdjecia/PCB/connection.png>]
-<zdjecia/PCB/PCB_left_3D.png, id=357, 706.13812pt x 611.28375pt>
+[30 <./zdjecia/PCB/connection.png>]
+<zdjecia/PCB/PCB_left_3D.png, id=371, 706.13812pt x 611.28375pt>
 File: zdjecia/PCB/PCB_left_3D.png Graphic file (type png)
 <use zdjecia/PCB/PCB_left_3D.png>
-Package pdftex.def Info: zdjecia/PCB/PCB_left_3D.png  used on input line 143.
+Package pdftex.def Info: zdjecia/PCB/PCB_left_3D.png  used on input line 242.
 (pdftex.def)             Requested size: 282.45024pt x 244.50917pt.
-<zdjecia/PCB/PCB_right_top.png, id=358, 554.82281pt x 659.46375pt>
+<zdjecia/PCB/PCB_right_top.png, id=372, 554.82281pt x 659.46375pt>
 File: zdjecia/PCB/PCB_right_top.png Graphic file (type png)
 <use zdjecia/PCB/PCB_right_top.png>
-Package pdftex.def Info: zdjecia/PCB/PCB_right_top.png  used on input line 158.
+Package pdftex.def Info: zdjecia/PCB/PCB_right_top.png  used on input line 257.
 
 (pdftex.def)             Requested size: 155.59483pt x 184.9429pt.
-<zdjecia/PCB/PCB_right_bottom.png, id=359, 340.27126pt x 645.91313pt>
+<zdjecia/PCB/PCB_right_bottom.png, id=373, 340.27126pt x 645.91313pt>
 File: zdjecia/PCB/PCB_right_bottom.png Graphic file (type png)
 <use zdjecia/PCB/PCB_right_bottom.png>
-Package pdftex.def Info: zdjecia/PCB/PCB_right_bottom.png  used on input line 1
-63.
+Package pdftex.def Info: zdjecia/PCB/PCB_right_bottom.png  used on input line 2
+62.
 (pdftex.def)             Requested size: 97.42484pt x 184.9429pt.
- [32 <./zdjecia/PCB/PCB_left_top.png> <./zdjecia/PCB/PCB_left_bottom.png> <./zd
+ [31 <./zdjecia/PCB/PCB_left_top.png> <./zdjecia/PCB/PCB_left_bottom.png> <./zd
 jecia/PCB/PCB_left_3D.png>]
-<zdjecia/PCB/PCB_right_3D.png, id=369, 557.83406pt x 571.38469pt>
+<zdjecia/PCB/PCB_right_3D.png, id=384, 557.83406pt x 571.38469pt>
 File: zdjecia/PCB/PCB_right_3D.png Graphic file (type png)
 <use zdjecia/PCB/PCB_right_3D.png>
-Package pdftex.def Info: zdjecia/PCB/PCB_right_3D.png  used on input line 171.
+Package pdftex.def Info: zdjecia/PCB/PCB_right_3D.png  used on input line 270.
 (pdftex.def)             Requested size: 223.12967pt x 228.54982pt.
-) [33 <./zdjecia/PCB/PCB_right_top.png> <./zdjecia/PCB/PCB_right_bottom.png> <.
+) [32 <./zdjecia/PCB/PCB_right_top.png> <./zdjecia/PCB/PCB_right_bottom.png> <.
 /zdjecia/PCB/PCB_right_3D.png>]
+\openout2 = `rozdzialy/hardware/uklad.aux'.
+
+ (./rozdzialy/hardware/uklad.tex)
+\openout2 = `rozdzialy/hardware/glosniki.aux'.
+
+
+(./rozdzialy/hardware/glosniki.tex)
+\openout2 = `rozdzialy/hardware/mikrofony.aux'.
+
+ (./rozdzialy/hardware/mikrofony.tex)
+\openout2 = `rozdzialy/hardware/uC.aux'.
+
+
+(./rozdzialy/hardware/uC.tex)
+\openout2 = `rozdzialy/hardware/PCB.aux'.
+
+ (./rozdzialy/hardware/PCB.tex)
 \openout2 = `rozdzialy/software.aux'.
 
- (./rozdzialy/software.tex [34
 
-
-
-]
+(./rozdzialy/software.tex
 Rozdzia\l  6.
-<zdjecia/eclipse.png, id=384, 1444.64719pt x 791.20593pt>
+<zdjecia/eclipse.png, id=395, 1444.64719pt x 791.20593pt>
 File: zdjecia/eclipse.png Graphic file (type png)
 <use zdjecia/eclipse.png>
 Package pdftex.def Info: zdjecia/eclipse.png  used on input line 12.
 (pdftex.def)             Requested size: 218.18669pt x 119.50148pt.
-<zdjecia/cubemx.png, id=385, 1444.64719pt x 790.45313pt>
+<zdjecia/cubemx.png, id=396, 1444.64719pt x 790.45313pt>
 File: zdjecia/cubemx.png Graphic file (type png)
 <use zdjecia/cubemx.png>
 Package pdftex.def Info: zdjecia/cubemx.png  used on input line 17.
 (pdftex.def)             Requested size: 218.38507pt x 119.50148pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 25--180
+<zdjecia/stmstudio.png, id=397, 797.98125pt x 651.93562pt>
+File: zdjecia/stmstudio.png Graphic file (type png)
+<use zdjecia/stmstudio.png>
+Package pdftex.def Info: zdjecia/stmstudio.png  used on input line 22.
+(pdftex.def)             Requested size: 146.27266pt x 119.50148pt.
+[33
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <./zdjecia/eclipse.png> <./zdjecia/cubemx.png> <./zdjecia/stmstudio.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 []\T1/ptm/m/n/12 Dla lep-szej na-wi-ga-cji, za-sto-so-wano kon-wen-cj¦ na-zew-n
 ic-twa funk-cji - <NA-
  []
 
 
-Underfull \hbox (badness 2310) in paragraph at lines 25--180
+Underfull \hbox (badness 2310) in paragraph at lines 30--31
 \T1/ptm/m/n/12 ZWA_ZWIZANA_Z_NAZW_PLIKU>_<funkcjonalno±¢Funkcji>. Na przy-kªa
 d funk-cja
  []
 
-[35 <./zdjecia/eclipse.png> <./zdjecia/cubemx.png>] [36
+
+LaTeX Warning: Command \textless invalid in math mode on input line 39.
 
 
-] [37]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 184.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 39.
+
+[34]) [35] [36]
+\openout2 = `rozdzialy/software/soft_mic.aux'.
+
+ (./rozdzialy/software/soft_mic.tex) [37
+
+
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 185.
  [38]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 184.
- (./praca.aux (./rozdzialy/wstep.aux) (./rozdzialy/dzwiek.aux) (./rozdzialy/zal
-ozenia.aux)
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 185.
+ (./praca.aux
+(./rozdzialy/wstep.aux) (./rozdzialy/dzwiek.aux) (./rozdzialy/zalozenia.aux)
 (./rozdzialy/hardware.aux) (./rozdzialy/hardware/uklad.aux)
 (./rozdzialy/hardware/glosniki.aux) (./rozdzialy/hardware/mikrofony.aux)
 (./rozdzialy/hardware/uC.aux) (./rozdzialy/hardware/PCB.aux)
-(./rozdzialy/software.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 184.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 184.
+(./rozdzialy/software.aux) (./rozdzialy/software/soft_mic.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 185.
 Package rerunfilecheck Info: File `praca.out' has not changed.
-(rerunfilecheck)             Checksum: CE2418C46109D9CC5FF3C0DB33EC21A9;1455.
+(rerunfilecheck)             Checksum: B2BAD06E6C5717062AD3E9A94E5159D6;1667.
 Package logreq Info: Writing requests to 'praca.run.xml'.
 \openout1 = `praca.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 184.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 185.
  ) 
 Here is how much of TeX's memory you used:
- 33352 strings out of 492166
- 608906 string characters out of 6129146
+ 33392 strings out of 492166
+ 609750 string characters out of 6129146
  1013653 words of memory out of 5000000
- 37138 multiletter control sequences out of 15000+600000
+ 37164 multiletter control sequences out of 15000+600000
  613316 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,12n,71p,1455b,1880s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1856,10 +1849,10 @@ e1/urw/helvetic/uhvr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/helvetic
 exlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/u
 rw/times/utmri8a.pfb>
-Output written on praca.pdf (38 pages, 2359510 bytes).
+Output written on praca.pdf (38 pages, 2596784 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 392 compressed objects within 4 object streams
- 98 named destinations out of 1000 (max. 500000)
- 320 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 522 PDF objects out of 1000 (max. 8388607)
+ 412 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 354 words of extra memory for PDF output out of 10000 (max. 10000000)
 
