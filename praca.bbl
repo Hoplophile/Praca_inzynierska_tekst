@@ -75,6 +75,30 @@
     \field{year}{2002 - 2013}
   \endentry
 
+  \entry{cochlea}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WC}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Corinne},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WC1}
+    \strng{fullhash}{WC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb https://www.jci.org/articles/view/72707/pdf
+    \endverb
+    \field{number}{10}
+    \field{title}{Hearing restoration: Graeme Clark, Ingeborg Hochmair, and
+  Blake Wilson receive the 2013 Lasker DeBakey Clinical Medical Research Award}
+    \field{volume}{123}
+    \field{journaltitle}{The Journal of Clinical Investigation}
+    \field{year}{2013}
+  \endentry
+
   \entry{SPLtable}{misc}{}
     \name{author}{1}{}{%
       {{hash=SD}{%
@@ -163,6 +187,53 @@
   \field{howpublished}{\\\url{https://www.sciencedirect.com/science/article/pii/S1808869415308053}}
     \field{title}{Acoustic and psychoacoustic analysis of the noise produced by
   the police force firearms}
+  \endentry
+
+  \entry{AudioAmps}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=NR}{%
+         family={Nicoletti},
+         familyi={N\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Maxim Integrated}%
+    }
+    \strng{namehash}{NR1}
+    \strng{fullhash}{NR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\\\url{https://www.maximintegrated.com/en/design/technical-documents/tutorials/5/5590.html}}
+    \field{title}{Types of audio amplifiers}
+    \field{year}{2013}
+  \endentry
+
+  \entry{MicSens}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LJ}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Jarad},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJ1}
+    \strng{fullhash}{LJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\\\url{https://www.analog.com/en/analog-dialogue/articles/understanding-microphone-sensitivity.html}}
+    \field{title}{Understanding Microphone Sensitivity}
+  \endentry
+
+  \entry{STM32L4}{misc}{}
+    \list{organization}{1}{%
+      {STMicroelectronics}%
+    }
+    \field{labeltitlesource}{title}
+  \field{howpublished}{\url{https://www.st.com/resource/en/datasheet/stm32l476je.pdf}}
+    \field{title}{STM32L476xx Datasheet}
   \endentry
 \enddatalist
 \endinput

@@ -1,0 +1,10 @@
+\section{Mikrokontroler}
+\label{cha:uC}
+
+Jako jednostkę obliczeniową, wybrano mikrokontroler firmy \textit{STMicroelectronics}: \textit{STM32L476RG}.
+
+Jego rdzeniem jest 32-bitowy \textit{Cortex-M4} z możliwością zastosowania bibliotek DSP (ang. \textit{Digital Signal Processing} - Cyfrowe Przetwarzanie Sygnałów). Z kolei \textit{L} jest niskoprądową alternatywą dla serii \textit{F}. Głównie tych dwóch powodów został wybrany do tych słuchawek.
+
+Maksymalna częstotliwość zegara procesora wynosi $80MHz$. Mikrokontroler posiada 3 12-bitowe przetworniki analogowo-cyfrowe, czyli akurat tyle, aby próbkować dwa mikrofony i sygnał z radiotelefonu. Do tego 2 12-bitowe przetworniki cyfrowo-analogowe - po jednym na głośnik\cite{STM32L4}.
+
+Na potrzeby prototypowania wykorzystano płytkę \textit{Nucleo-64}, która zawiera programator \textit{ST-LINK}, diodę oraz przycisk użytkownika, przycisk resetu i jest kompatybilna z nakładkami na popularną platformę \textit{Arduino Uno}. Miała ona zostać również użyta do zaprogramowania mikrokontrolera na docelowej płytce PCB.

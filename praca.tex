@@ -11,8 +11,8 @@
 \usepackage[utf8]{inputenc}
 
 % dodatkowe pakiety
-\usepackage{float}
-\restylefloat{table}		%added to position tables inline
+\usepackage{float}			%added to position tables inline
+%\restylefloat{table}		
 \usepackage{mathtools}
 \usepackage{amsfonts}
 \usepackage{amsmath}
@@ -67,23 +67,23 @@ backend=bibtex
 
 \lstset{
 	literate={ą}{{\k{a}}}1
-           {ć}{{\'c}}1
-           {ę}{{\k{e}}}1
-           {ó}{{\'o}}1
-           {ń}{{\'n}}1
-           {ł}{{\l{}}}1
-           {ś}{{\'s}}1
-           {ź}{{\'z}}1
-           {ż}{{\.z}}1
-           {Ą}{{\k{A}}}1
-           {Ć}{{\'C}}1
-           {Ę}{{\k{E}}}1
-           {Ó}{{\'O}}1
-           {Ń}{{\'N}}1
-           {Ł}{{\L{}}}1
-           {Ś}{{\'S}}1
-           {Ź}{{\'Z}}1
-           {Ż}{{\.Z}}1,
+	{ć}{{\'c}}1
+	{ę}{{\k{e}}}1
+	{ó}{{\'o}}1
+	{ń}{{\'n}}1
+	{ł}{{\l{}}}1
+	{ś}{{\'s}}1
+	{ź}{{\'z}}1
+	{ż}{{\.z}}1
+	{Ą}{{\k{A}}}1
+	{Ć}{{\'C}}1
+	{Ę}{{\k{E}}}1
+	{Ó}{{\'O}}1
+	{Ń}{{\'N}}1
+	{Ł}{{\L{}}}1
+	{Ś}{{\'S}}1
+	{Ź}{{\'Z}}1
+	{Ż}{{\.Z}}1,
 	basicstyle=\footnotesize\ttfamily,
 }
 
@@ -148,30 +148,37 @@ backend=bibtex
 \brokenpenalty=10000\relax
 
 \begin{document}
-
-\titlepages
-
-% Ponowne zdefiniowanie stylu `plain`, aby usunąć numer strony z pierwszej strony spisu treści i poszczególnych rozdziałów.
-\fancypagestyle{plain}
-{
-	% Usuń nagłówek i stopkę
-	\fancyhf{}
-	% Usuń linie.
-	\renewcommand{\headrulewidth}{0pt}
-	\renewcommand{\footrulewidth}{0pt}
-}
-
-\setcounter{tocdepth}{2}
-\tableofcontents
-\clearpage
-
-\include{rozdzialy/wstep}
-
-\include{rozdzialy/dzwiek}
-
-\include{rozdzialy/wykonanie}
-\include{rozdzialy/wykonanie/hardware}
-
-\printbibliography
-
+	
+	\titlepages
+	
+	% Ponowne zdefiniowanie stylu `plain`, aby usunąć numer strony z pierwszej strony spisu treści i poszczególnych rozdziałów.
+	\fancypagestyle{plain}
+	{
+		% Usuń nagłówek i stopkę
+		\fancyhf{}
+		% Usuń linie.
+		\renewcommand{\headrulewidth}{0pt}
+		\renewcommand{\footrulewidth}{0pt}
+	}
+	
+	\setcounter{tocdepth}{2}
+	\tableofcontents
+	\clearpage
+	
+	\include{rozdzialy/wstep}
+	
+	\include{rozdzialy/dzwiek}
+	
+	\include{rozdzialy/zalozenia}
+	\include{rozdzialy/hardware}
+	\include{rozdzialy/hardware/uklad}
+	\include{rozdzialy/hardware/glosniki}
+	\include{rozdzialy/hardware/mikrofony}
+	\include{rozdzialy/hardware/uC}
+	\include{rozdzialy/hardware/PCB}
+	
+	\include{rozdzialy/software}
+	
+	\printbibliography
+	
 \end{document}

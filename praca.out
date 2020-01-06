@@ -4,5 +4,20 @@
 \BOOKMARK [1][-]{section.2.2}{Odbi\363r fal dzwiekowych przez czlowieka}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Fale dzwiekowe jako zagrozenie dla zdrowia czlowieka}{chapter.2}% 5
 \BOOKMARK [2][-]{subsection.2.3.1}{Dzwieki strzal\363w i wybuch\363w}{section.2.3}% 6
-\BOOKMARK [0][-]{chapter.3}{Wykonanie ochronnik\363w sluchu}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Hardware}{chapter.3}% 8
+\BOOKMARK [0][-]{chapter.3}{Zalozenia projektowe}{}% 7
+\BOOKMARK [0][-]{chapter.4}{Istniejace rozwiazania}{}% 8
+\BOOKMARK [0][-]{chapter.5}{Hardware}{}% 9
+\BOOKMARK [1][-]{section.5.1}{Uklad elektroniczny}{chapter.5}% 10
+\BOOKMARK [1][-]{section.5.2}{Glosniki}{chapter.5}% 11
+\BOOKMARK [1][-]{section.5.3}{Mikrofony}{chapter.5}% 12
+\BOOKMARK [1][-]{section.5.4}{Mikrokontroler}{chapter.5}% 13
+\BOOKMARK [1][-]{section.5.5}{PCB}{chapter.5}% 14
+\BOOKMARK [2][-]{subsection.5.5.1}{Main}{section.5.5}% 15
+\BOOKMARK [2][-]{subsection.5.5.2}{Power}{section.5.5}% 16
+\BOOKMARK [2][-]{subsection.5.5.3}{Charger}{section.5.5}% 17
+\BOOKMARK [2][-]{subsection.5.5.4}{Microphone\137left i Microphone\137right}{section.5.5}% 18
+\BOOKMARK [2][-]{subsection.5.5.5}{Speakers}{section.5.5}% 19
+\BOOKMARK [2][-]{subsection.5.5.6}{Connection}{section.5.5}% 20
+\BOOKMARK [2][-]{subsection.5.5.7}{PCB\137left}{section.5.5}% 21
+\BOOKMARK [2][-]{subsection.5.5.8}{PCB\137right}{section.5.5}% 22
+\BOOKMARK [0][-]{chapter.6}{Software}{}% 23
