@@ -20,7 +20,15 @@
 \BOOKMARK [2][-]{subsection.5.5.6}{Connection}{section.5.5}% 20
 \BOOKMARK [2][-]{subsection.5.5.7}{PCB\137left}{section.5.5}% 21
 \BOOKMARK [2][-]{subsection.5.5.8}{PCB\137right}{section.5.5}% 22
-\BOOKMARK [0][-]{chapter.6}{Software}{}% 23
-\BOOKMARK [1][-]{section.6.1}{System sluchawek}{chapter.6}% 24
-\BOOKMARK [1][-]{section.6.2}{Odczyt sygnalu z mikrofonu}{chapter.6}% 25
-\BOOKMARK [1][-]{section.6.3}{Wysylanie sygnalu do glosnika}{chapter.6}% 26
+\BOOKMARK [1][-]{section.5.6}{Pob\363r mocy}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.6}{Software}{}% 24
+\BOOKMARK [1][-]{section.6.1}{System sluchawek}{chapter.6}% 25
+\BOOKMARK [1][-]{section.6.2}{Odczyt sygnalu z mikrofonu}{chapter.6}% 26
+\BOOKMARK [1][-]{section.6.3}{Minimalizacja szum\363w}{chapter.6}% 27
+\BOOKMARK [1][-]{section.6.4}{Wysylanie sygnalu do glosnika}{chapter.6}% 28
+\BOOKMARK [1][-]{section.6.5}{Analiza dzwieku i wyciszanie}{chapter.6}% 29
+\BOOKMARK [0][-]{chapter.7}{Model 3D}{}% 30
+\BOOKMARK [1][-]{section.7.1}{Sluchawka lewa}{chapter.7}% 31
+\BOOKMARK [1][-]{section.7.2}{Sluchawka prawa}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.3}{Palak}{chapter.7}% 33
+\BOOKMARK [0][-]{chapter.8}{p o d s u m o w a n k o}{}% 34

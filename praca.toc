@@ -22,7 +22,15 @@
 \contentsline {subsection}{\numberline {5.5.6}Connection}{29}{subsection.5.5.6}% 
 \contentsline {subsection}{\numberline {5.5.7}PCB\_left}{30}{subsection.5.5.7}% 
 \contentsline {subsection}{\numberline {5.5.8}PCB\_right}{31}{subsection.5.5.8}% 
+\contentsline {section}{\numberline {5.6}Pobór mocy}{32}{section.5.6}% 
 \contentsline {chapter}{\numberline {6}Software}{33}{chapter.6}% 
 \contentsline {section}{\numberline {6.1}System słuchawek}{34}{section.6.1}% 
 \contentsline {section}{\numberline {6.2}Odczyt sygnału z mikrofonu}{35}{section.6.2}% 
-\contentsline {section}{\numberline {6.3}Wysyłanie sygnału do głośnika}{36}{section.6.3}% 
+\contentsline {section}{\numberline {6.3}Minimalizacja szumów}{35}{section.6.3}% 
+\contentsline {section}{\numberline {6.4}Wysyłanie sygnału do głośnika}{36}{section.6.4}% 
+\contentsline {section}{\numberline {6.5}Analiza dźwięku i wyciszanie}{37}{section.6.5}% 
+\contentsline {chapter}{\numberline {7}Model 3D}{39}{chapter.7}% 
+\contentsline {section}{\numberline {7.1}Słuchawka lewa}{39}{section.7.1}% 
+\contentsline {section}{\numberline {7.2}Słuchawka prawa}{40}{section.7.2}% 
+\contentsline {section}{\numberline {7.3}Pałąk}{41}{section.7.3}% 
+\contentsline {chapter}{\numberline {8}p o d s u m o w a n k o}{43}{chapter.8}% 

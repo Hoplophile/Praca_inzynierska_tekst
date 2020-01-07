@@ -6,11 +6,9 @@ A level-1 auxiliary file: rozdzialy/wstep.aux
 A level-1 auxiliary file: rozdzialy/dzwiek.aux
 A level-1 auxiliary file: rozdzialy/zalozenia.aux
 A level-1 auxiliary file: rozdzialy/hardware.aux
-A level-1 auxiliary file: rozdzialy/hardware/uklad.aux
-A level-1 auxiliary file: rozdzialy/hardware/glosniki.aux
-A level-1 auxiliary file: rozdzialy/hardware/mikrofony.aux
-A level-1 auxiliary file: rozdzialy/hardware/uC.aux
-A level-1 auxiliary file: rozdzialy/hardware/PCB.aux
+A level-1 auxiliary file: rozdzialy/software.aux
+A level-1 auxiliary file: rozdzialy/model.aux
+A level-1 auxiliary file: rozdzialy/podsumowanie.aux
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
@@ -33,7 +31,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 15 entries,
             6363 wiz_defined-function locations,
-            1276 strings with 11329 characters,
+            1274 strings with 11254 characters,
 and the built_in function-call counts, 53421 in all, are:
 = -- 3528
 > -- 818

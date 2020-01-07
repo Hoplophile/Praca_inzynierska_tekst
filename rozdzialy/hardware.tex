@@ -31,7 +31,7 @@ Każda ze słuchawek została wyposażona w głośnik odpowiedzialny zarówno za
 
 Sterowanie głośnikami zostało przewidziane z wykorzystaniem wbudowanych w mikrokontroler dwóch 12-bitowych przetworników cyfrowo-analogowych w trybie single-ended. Ich wyjścia były dodatkowo wzmacniane przez układy \textit{TPA2005D1DGNR} firmy \textit{Texas Instruments}. Są to wzmacniacze audio klasy D, stworzonej na potrzeby urządzeń przenośnych. Obok innych popularnych klas, jak A, B, AB, czy G, klasa D charakteryzuje się bardzo wysoką wydajnością mocową (nawet powyżej $ 90\% $). Wynika ona stąd, że w odróżnieniu od pozostałych, gdzie stosowane są konfiguracje common-emitter lub push-pull, klasa D stosuje całkowite załączanie lub wyłączanie tranzystora wyjściowego i modulację częstotliwości PWM, aby przybliżyć analogowy poziom napięcia\cite{AudioAmps}. Układ \textit{TPA2005D1} ma według specyfikacji wydajność ok. $ 85\% $ przy $32\Omega$ głośniku, zasilaniu $ 3.6V $ i mocy wyjściowej $ 100mW $.
 
-Dodatkowo układy te mają wbudowany pin shutdown, który został użyty aby wyłączać je w trybie uśpienia słuchawek opisanym szerzej w rozdziale \textbf{REF DO ROZDZIALU Z SYSTEMEM SŁUCHAWEK}. Dzięki niemu wzmacniacze mogą pobierać zaledwie $ 0.5 µA $.
+Dodatkowo układy te mają wbudowany pin shutdown, który został użyty aby wyłączać je w trybie uśpienia słuchawek opisanym szerzej w rozdziale \ref{cha:soft_sys}. Dzięki niemu wzmacniacze mogą pobierać zaledwie $ 0.5 µA $.
 
 W idealnym przypadku słuchawki powinny zawierać kilka głośników, co umożliwiłoby symulację dźwięku przestrzennego. To jednak zwiększyłoby koszt słuchawek, wymagało zamontowania kilku mikrofonów, utrudniło rozmieszczenie elementów wewnątrz i implementację algorytmu wyciszającego.
 
@@ -39,7 +39,7 @@ W idealnym przypadku słuchawki powinny zawierać kilka głośników, co umożli
 \section{Mikrofony}
 \label{cha:mikrofony}
 
-Wybór mikrofonu był największym problemem ze względu na różne technologie wykonania (elektretowy, MEMS) oraz dużo różnych parametrów. Początkowo miał to być mikrofon elektretowy, jednak okazało się, że są one mało precyzyjne. Konieczne było wybranie technologii MEMS, czyli miniaturowego mikrofonu wbudowanego w chip z otworem do akwizycji fal akustycznych.
+Wybór mikrofonu był największym problemem ze względu na różne technologie wykonania (elektretowy, MEMS) oraz dużo parametrów. Początkowo miał zostać użyty mikrofon elektretowy, jednak okazało się, że są one mało precyzyjne. Konieczne było wybranie technologii MEMS, czyli miniaturowego mikrofonu wbudowanego w chip z otworem do akwizycji fal akustycznych.
 
 \begin{figure}[H]
 	\centering
@@ -246,7 +246,7 @@ Do mikrofonu komunikacyjnego i połączenia między płytkami zastosowano konekt
 
 \subsection{PCB\_right}
 
-Płytka prawa ma znacznie bardziej ograniczoną funkcjonalność. Z tego powodu jej kształt został ograniczony do prostokąta o wymiarach $15x30mm$. 
+Płytka prawa ma znacznie mniejszą funkcjonalność. Z tego powodu jej kształt został ograniczony do prostokąta o wymiarach $15x30mm$. 
 
 Podobnie jak w lewej, tylko mikrofon i kondensator na jego zasilaniu, znajdują się na dolnej warstwie. Płytka zawiera oprócz tego konektor do połączenia do drugiej płytki, wyjścia głośnika i baterii oraz układ ładujący z konektorem mikro USB typu B. Również zastosowano tutaj otwory montażowe oraz po dwie masy na warstwę i dla każdej sieć przelotek.
 
@@ -270,3 +270,10 @@ Podobnie jak w lewej, tylko mikrofon i kondensator na jego zasilaniu, znajdują 
 	\includegraphics[scale=0.4]{zdjecia/PCB/PCB_right_3D.png}
 	\caption{\label{PCB_right_3D} Wygląd prawej płytki z góry w trybie podglądu 3D}
 \end{figure}
+
+\section{Pobór mocy}
+\label{cha:pobor_mocy}
+
+\textbf{NIE WIEM JAK TO POLICZE, ALE CHYBA JAKOŚ POWINIENEM}
+
+
